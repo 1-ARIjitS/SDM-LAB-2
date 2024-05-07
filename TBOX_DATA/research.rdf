@@ -8,44 +8,50 @@
     <rdfs:range rdf:resource="http://www.example.edu/research/journals"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.edu/research/workshops">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.example.edu/research/cites">
     <rdfs:domain rdf:resource="http://www.example.edu/research/cited_paper"/>
     <rdfs:range rdf:resource="http://www.example.edu/research/paper"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.edu/research/write">
-    <rdfs:domain rdf:resource="http://www.example.edu/research/writes"/>
-    <rdfs:range rdf:resource="http://www.example.edu/research/paper"/>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.edu/research/work_is_partof">
-    <rdfs:domain rdf:resource="http://www.example.edu/research/workshops"/>
-    <rdfs:range rdf:resource="http://www.example.edu/research/proceedings"/>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.edu/research/reviewer">
-    <rdfs:subClassOf rdf:resource="http://www.example.edu/research/author"/>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.example.edu/research/write_role">
     <rdfs:domain rdf:resource="http://www.example.edu/research/author"/>
     <rdfs:range rdf:resource="http://www.example.edu/research/writes"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.edu/research/reviews">
-    <rdfs:domain rdf:resource="http://www.example.edu/research/reviewer"/>
-    <rdfs:range rdf:resource="http://www.example.edu/research/paper"/>
+  <rdf:Description rdf:about="http://www.example.edu/research/cited_paper">
+    <rdfs:subClassOf rdf:resource="http://www.example.edu/research/paper"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/presented_in">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/paper"/>
+    <rdfs:range rdf:resource="http://www.example.edu/research/conferences"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/proceedings">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.example.edu/research/has">
     <rdfs:domain rdf:resource="http://www.example.edu/research/paper"/>
     <rdfs:range rdf:resource="http://www.example.edu/research/keywords"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.edu/research/paper">
+  <rdf:Description rdf:about="http://www.example.edu/research/author">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/write">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/writes"/>
+    <rdfs:range rdf:resource="http://www.example.edu/research/paper"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/writes">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/work_is_partof">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/workshops"/>
+    <rdfs:range rdf:resource="http://www.example.edu/research/proceedings"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/workshops">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.example.edu/research/presented_in_work">
@@ -53,36 +59,30 @@
     <rdfs:range rdf:resource="http://www.example.edu/research/workshops"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.edu/research/presented_in">
-    <rdfs:domain rdf:resource="http://www.example.edu/research/paper"/>
-    <rdfs:range rdf:resource="http://www.example.edu/research/conferences"/>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.edu/research/journals">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.edu/research/conferences">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.edu/research/cited_paper">
-    <rdfs:subClassOf rdf:resource="http://www.example.edu/research/paper"/>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.example.edu/research/is_partof">
     <rdfs:domain rdf:resource="http://www.example.edu/research/conferences"/>
     <rdfs:range rdf:resource="http://www.example.edu/research/proceedings"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.edu/research/author">
+  <rdf:Description rdf:about="http://www.example.edu/research/paper">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.edu/research/writes">
+  <rdf:Description rdf:about="http://www.example.edu/research/reviewer">
+    <rdfs:subClassOf rdf:resource="http://www.example.edu/research/author"/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/reviews">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/reviewer"/>
+    <rdfs:range rdf:resource="http://www.example.edu/research/paper"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.example.edu/research/keywords">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.edu/research/proceedings">
+  <rdf:Description rdf:about="http://www.example.edu/research/journals">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/conferences">
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
 </rdf:RDF>
