@@ -68,7 +68,7 @@ g.add((research.work_is_partof, RDF.type, RDF.Property))
 
 # Serialize the graph to a file
 # print(g.serialize())
-print(g.serialize("research.ttl", format="turtle"))
+print(g.serialize("research.rdf", format="xml"))
 
 
 # research:paper rdf:type rdfs:Class .
