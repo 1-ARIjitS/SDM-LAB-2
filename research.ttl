@@ -1,0 +1,65 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.example.edu/research/author> a rdfs:Class .
+
+<http://www.example.edu/research/cited_paper> a rdfs:Class ;
+    rdfs:subClassOf <http://www.example.edu/research/paper> .
+
+<http://www.example.edu/research/conferences> a rdfs:Class .
+
+<http://www.example.edu/research/journals> a rdfs:Class .
+
+<http://www.example.edu/research/keywords> a rdfs:Class .
+
+<http://www.example.edu/research/paper> a rdfs:Class .
+
+<http://www.example.edu/research/proceedings> a rdfs:Class .
+
+<http://www.example.edu/research/reviewer> a rdfs:Class ;
+    rdfs:subClassOf <http://www.example.edu/research/author> .
+
+<http://www.example.edu/research/workshops> a rdfs:Class .
+
+<http://www.example.edu/research/writes> a rdfs:Class .
+
+<http://www.example.edu/research/cites> a rdf:Property ;
+    rdfs:domain <http://www.example.edu/research/cited_paper> ;
+    rdfs:range <http://www.example.edu/research/paper> .
+
+<http://www.example.edu/research/has> a rdf:Property ;
+    rdfs:domain <http://www.example.edu/research/paper> ;
+    rdfs:range <http://www.example.edu/research/keywords> .
+
+<http://www.example.edu/research/is_partof> a rdf:Property ;
+    rdfs:domain <http://www.example.edu/research/conferences> ;
+    rdfs:range <http://www.example.edu/research/proceedings> .
+
+<http://www.example.edu/research/presented_in> a rdf:Property ;
+    rdfs:domain <http://www.example.edu/research/paper> ;
+    rdfs:range <http://www.example.edu/research/conferences> .
+
+<http://www.example.edu/research/presented_in_work> a rdf:Property ;
+    rdfs:domain <http://www.example.edu/research/paper> ;
+    rdfs:range <http://www.example.edu/research/workshops> .
+
+<http://www.example.edu/research/published_in> a rdf:Property ;
+    rdfs:domain <http://www.example.edu/research/paper> ;
+    rdfs:range <http://www.example.edu/research/journals> .
+
+<http://www.example.edu/research/reviews> a rdf:Property ;
+    rdfs:domain <http://www.example.edu/research/reviewer> ;
+    rdfs:range <http://www.example.edu/research/paper> .
+
+<http://www.example.edu/research/work_is_partof> a rdf:Property ;
+    rdfs:domain <http://www.example.edu/research/workshops> ;
+    rdfs:range <http://www.example.edu/research/proceedings> .
+
+<http://www.example.edu/research/write> a rdf:Property ;
+    rdfs:domain <http://www.example.edu/research/writes> ;
+    rdfs:range <http://www.example.edu/research/paper> .
+
+<http://www.example.edu/research/write_role> a rdf:Property ;
+    rdfs:domain <http://www.example.edu/research/author> ;
+    rdfs:range <http://www.example.edu/research/writes> .
+
