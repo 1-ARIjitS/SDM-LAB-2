@@ -1,8 +1,22 @@
 from rdflib import Graph, URIRef, BNode, Literal
 from rdflib import Namespace
+import io
+import pydotplus
+from IPython.display import display, Image
+from rdflib.tools.rdf2dot import rdf2dot
+from rdflib.tools.rdf2dot import rdf2dot
 from rdflib.namespace import CSVW, DC, DCAT, DCTERMS, DOAP, FOAF, ODRL2, ORG, OWL, \
                            PROF, PROV, RDF, RDFS, SDO, SH, SKOS, SOSA, SSN, TIME, \
                            VOID, XMLNS, XSD
+
+# function to visualize graph
+def visualize(g):
+    stream = io.StringIO()
+    rdf2dot(g, stream, opts = {display})
+    dg = pydotplus.graph_from_dot_data(stream.getvalue())
+    png = dg.create_png()
+    dg.write_png("ontology.png")
+    display(Image(png))
 
 # research= URIRef("http://www.example.edu/research/") 
 research = Namespace("http://www.example.edu/research/")
@@ -70,6 +84,8 @@ g.add((research.work_is_partof, RDF.type, RDF.Property))
 # print(g.serialize())
 print(g.serialize("research.rdf", format="xml"))
 
+# visualize graph
+visualize(g)
 
 # research:paper rdf:type rdfs:Class .
 # research:author rdf:type rdfs:Class .
