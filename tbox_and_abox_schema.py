@@ -292,8 +292,8 @@ g.add((research.is_partof, RDFS.range, research.proceedings))
 g.add((research.is_partof, RDF.type, RDF.Property))
 
 # Instance- adding confernce_is_part_of_proceedings edge
-df_edge_confernce_is_part_of_proceedings= pd.read_csv("DATA/conference_part_of_proceedings.csv", delimiter=",")
-for index, row in df_edge_confernce_is_part_of_proceedings.iterrows():
+df_edge_conference_is_part_of_proceedings= pd.read_csv("DATA/conference_part_of_proceedings.csv", delimiter=",")
+for index, row in df_edge_conference_is_part_of_proceedings.iterrows():
     conference_id = URIRef(research + f"conference_{row["START_ID"]}")
     proceeding_id = URIRef(research + f"proceeding_{row["END_ID"]}")
 
