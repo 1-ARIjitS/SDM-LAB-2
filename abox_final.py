@@ -37,7 +37,7 @@ for index, row in df_node_papers.iterrows():
     abstract = Literal(row["abstract"])
     pages = Literal(row["pages"])
     doi = Literal(row["DOI"])
-    link = URIRef(row["link"])
+    link = Literal(row["link"])
     date = Literal(row["date"])
 
     # Add triples to the graph
