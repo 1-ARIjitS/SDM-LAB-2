@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.example.edu/research/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://www.example.edu/research/author_6307534.0">
+    <rdf:type rdf:resource="http://www.example.edu/research/author"/>
+    <ns1:name>J. Rideout</ns1:name>
+    <ns1:email>j..rideout@purdueuniversity.edu</ns1:email>
+    <ns1:writes rdf:resource="http://www.example.edu/research/paper_133bcd7488a3c07cb0f493a87564c30e5433768c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/2f5d0e8a-faad-4f10-b323-2b2e3c439a78">
+    <rdf:type rdf:resource="http://www.example.edu/research/journals"/>
+    <ns1:publicationType>journal</ns1:publicationType>
+    <ns1:name>Shanlax International Journal of Arts, Science and Humanities</ns1:name>
+    <ns1:venue>Lecture Notes in Computer Science</ns1:venue>
+    <ns1:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</ns1:year>
+    <ns1:issn>0302-9743</ns1:issn>
+    <ns1:url>http://www.springer.com/lncs</ns1:url>
+    <ns1:volume>1</ns1:volume>
+    <ns1:journalEditor>Rachel Garcia</ns1:journalEditor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/conference_b55b50b1-aae7-47a7-b042-8aecc930073d">
+    <rdf:type rdf:resource="http://www.example.edu/research/conferences"/>
+    <ns1:name>International Conference on Human Factors in Computing Systems</ns1:name>
+    <ns1:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</ns1:year>
+    <ns1:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</ns1:year>
+    <ns1:venue>International Conference on Human Factors in Computing Systems</ns1:venue>
+    <ns1:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#double">nan</ns1:issn>
+    <ns1:url>http://www.acm.org/sigchi/</ns1:url>
+    <ns1:edition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns1:edition>
+    <ns1:edition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:edition>
+    <ns1:conferenceChair>Debbie Franklin</ns1:conferenceChair>
+    <ns1:conferenceChair>Glenn Lambert</ns1:conferenceChair>
+    <ns1:is_partof rdf:resource="http://www.example.edu/research/proceeding_e4354ea1-52d3-4c94-812c-3f75887a5a6e"/>
+    <ns1:is_partof rdf:resource="http://www.example.edu/research/proceeding_516bb46d-d067-4eb8-9640-9aa06fe4e5aa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/paper_fa5853fdef7d2f6bb68203d187ddacbbddc63a8b">
+    <rdf:type rdf:resource="http://www.example.edu/research/paper"/>
+    <ns1:title>High-Dimensional Probability: An Introduction with Applications in Data Science</ns1:title>
+    <ns1:abstract>© 2018, Cambridge University Press Let us summarize our findings. A random projection of a set T in R n onto an m-dimensional subspace approximately preserves the geometry of T if m ⪆ d ( T ) . For...</ns1:abstract>
+    <ns1:pages>1591 - 1594</ns1:pages>
+    <ns1:DOI>10.1080/14697688.2020.1813475</ns1:DOI>
+    <ns1:link rdf:resource="https://www.semanticscholar.org/paper/fa5853fdef7d2f6bb68203d187ddacbbddc63a8b"/>
+    <ns1:date>2020-09-24</ns1:date>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/conference_a36dc29e-4ea1-4567-b0fe-1c06daf8bee8">
+    <rdf:type rdf:resource="http://www.example.edu/research/conferences"/>
+    <ns1:name>International Conference on Software Engineering</ns1:name>
+    <ns1:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</ns1:year>
+    <ns1:venue>International Conference on Software Engineering</ns1:venue>
+    <ns1:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#double">nan</ns1:issn>
+    <ns1:url>http://www.icse-conferences.org/</ns1:url>
+    <ns1:edition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:edition>
+    <ns1:conferenceChair>Randall Molina</ns1:conferenceChair>
+    <ns1:is_partof rdf:resource="http://www.example.edu/research/proceeding_e7bb28af-0550-4c1a-909e-4fc030266e62"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/paper_133bcd7488a3c07cb0f493a87564c30e5433768c">
+    <rdf:type rdf:resource="http://www.example.edu/research/paper"/>
+    <ns1:title>Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2</ns1:title>
+    <ns1:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#double">nan</ns1:abstract>
+    <ns1:pages>852 - 857</ns1:pages>
+    <ns1:DOI>10.1038/s41587-019-0209-9</ns1:DOI>
+    <ns1:link rdf:resource="https://www.semanticscholar.org/paper/133bcd7488a3c07cb0f493a87564c30e5433768c"/>
+    <ns1:date>2019-07-24</ns1:date>
+    <ns1:published_in rdf:resource="http://www.example.edu/research/conference_458166b3-de17-4bf3-bbbb-e53782de2f0f"/>
+    <ns1:has rdf:resource="http://www.example.edu/research/keyword_61789745-207a-4be6-bf3b-868908569b91"/>
+    <ns1:has rdf:resource="http://www.example.edu/research/keyword_d336c185-b99e-4275-a1ea-417f98b1a375"/>
+    <ns1:has rdf:resource="http://www.example.edu/research/keyword_fb74dc9f-b1b6-49f1-a59e-ccedba366077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/paper_c082ccfcfe1afc696e371374146ba9380b84061e">
+    <rdf:type rdf:resource="http://www.example.edu/research/paper"/>
+    <ns1:title>The Role of ChatGPT in Data Science: How AI-Assisted Conversational Interfaces Are Revolutionizing the Field</ns1:title>
+    <ns1:abstract>ChatGPT, a conversational AI interface that utilizes natural language processing and machine learning algorithms, is taking the world by storm and is the buzzword across many sectors today. Given the likely impact of this model on data science, through this perspective article, we seek to provide an overview of the potential opportunities and challenges associated with using ChatGPT in data science, provide readers with a snapshot of its advantages, and stimulate interest in its use for data science projects. The paper discusses how ChatGPT can assist data scientists in automating various aspects of their workflow, including data cleaning and preprocessing, model training, and result interpretation. It also highlights how ChatGPT has the potential to provide new insights and improve decision-making processes by analyzing unstructured data. We then examine the advantages of ChatGPT’s architecture, including its ability to be fine-tuned for a wide range of language-related tasks and generate synthetic data. Limitations and issues are also addressed, particularly around concerns about bias and plagiarism when using ChatGPT. Overall, the paper concludes that the benefits outweigh the costs and ChatGPT has the potential to greatly enhance the productivity and accuracy of data science workflows and is likely to become an increasingly important tool for intelligence augmentation in the field of data science. ChatGPT can assist with a wide range of natural language processing tasks in data science, including language translation, sentiment analysis, and text classification. However, while ChatGPT can save time and resources compared to training a model from scratch, and can be fine-tuned for specific use cases, it may not perform well on certain tasks if it has not been specifically trained for them. Additionally, the output of ChatGPT may be difficult to interpret, which could pose challenges for decision-making in data science applications.</ns1:abstract>
+    <ns1:pages>62</ns1:pages>
+    <ns1:DOI>10.3390/bdcc7020062</ns1:DOI>
+    <ns1:link rdf:resource="https://www.semanticscholar.org/paper/c082ccfcfe1afc696e371374146ba9380b84061e"/>
+    <ns1:date>2023-03-27</ns1:date>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/author_40950692.0">
+    <rdf:type rdf:resource="http://www.example.edu/research/author"/>
+    <ns1:name>Matthew R. Dillon</ns1:name>
+    <ns1:email>matthew.r..dillon@ecolepolytechniquefédéraledelausanne.edu</ns1:email>
+    <ns1:writes rdf:resource="http://www.example.edu/research/paper_133bcd7488a3c07cb0f493a87564c30e5433768c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/reviewer_152152335">
+    <rdf:type rdf:resource="http://www.example.edu/research/reviewer"/>
+    <ns1:reviews rdf:resource="http://www.example.edu/research/paper_133bcd7488a3c07cb0f493a87564c30e5433768c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/workshop_cdd7667c-05b7-4d41-83f6-3dadd7d418c7">
+    <rdf:type rdf:resource="http://www.example.edu/research/workshops"/>
+    <ns1:name>USENIX Workshop on Hot Topics in Storage and File Systems</ns1:name>
+    <ns1:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</ns1:year>
+    <ns1:venue>USENIX Workshop on Hot Topics in Storage and File Systems</ns1:venue>
+    <ns1:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#double">nan</ns1:issn>
+    <ns1:url rdf:datatype="http://www.w3.org/2001/XMLSchema#double">nan</ns1:url>
+    <ns1:edition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ns1:edition>
+    <ns1:workshopChair>Kimberly Peck</ns1:workshopChair>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/458166b3-de17-4bf3-bbbb-e53782de2f0f">
+    <rdf:type rdf:resource="http://www.example.edu/research/journals"/>
+    <ns1:publicationType>journal</ns1:publicationType>
+    <ns1:name>Nature Biotechnology</ns1:name>
+    <ns1:venue>Nature Biotechnology</ns1:venue>
+    <ns1:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</ns1:year>
+    <ns1:issn>1087-0156</ns1:issn>
+    <ns1:url>http://www.nature.com/nbt/</ns1:url>
+    <ns1:volume>37</ns1:volume>
+    <ns1:journalEditor>Lisa Clark</ns1:journalEditor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/workshop_8fe2bc2e-b6cc-45a8-8a71-1b5a3853942e">
+    <rdf:type rdf:resource="http://www.example.edu/research/workshops"/>
+    <ns1:name>UK Workshop on Computational Intelligence</ns1:name>
+    <ns1:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</ns1:year>
+    <ns1:venue>UK Workshop on Computational Intelligence</ns1:venue>
+    <ns1:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#double">nan</ns1:issn>
+    <ns1:url rdf:datatype="http://www.w3.org/2001/XMLSchema#double">nan</ns1:url>
+    <ns1:edition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</ns1:edition>
+    <ns1:workshopChair>Joshua Maxwell</ns1:workshopChair>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/reviewer_47131776">
+    <rdf:type rdf:resource="http://www.example.edu/research/reviewer"/>
+    <ns1:reviews rdf:resource="http://www.example.edu/research/paper_133bcd7488a3c07cb0f493a87564c30e5433768c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/759663ae-c1b4-41ef-9231-384ab473d4b4">
+    <rdf:type rdf:resource="http://www.example.edu/research/journals"/>
+    <ns1:publicationType>journal</ns1:publicationType>
+    <ns1:name>J. Organ. End User Comput.</ns1:name>
+    <ns1:venue>Journal of Organizational and End User Computing</ns1:venue>
+    <ns1:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</ns1:year>
+    <ns1:issn>1546-2234</ns1:issn>
+    <ns1:url>http://www.idea-group.com/journals</ns1:url>
+    <ns1:volume>34</ns1:volume>
+    <ns1:journalEditor>Anna Galvan</ns1:journalEditor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/keyword_61789745-207a-4be6-bf3b-868908569b91">
+    <rdf:type rdf:resource="http://www.example.edu/research/keywords"/>
+    <ns1:name>data management</ns1:name>
+    <ns1:domain>Database</ns1:domain>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/workshop_6a1abd85-3eca-4491-ac76-0134749a10fc">
+    <rdf:type rdf:resource="http://www.example.edu/research/workshops"/>
+    <ns1:name>International Workshop on Data Warehousing and OLAP</ns1:name>
+    <ns1:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</ns1:year>
+    <ns1:venue>International Workshop on Data Warehousing and OLAP</ns1:venue>
+    <ns1:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#double">nan</ns1:issn>
+    <ns1:url>http://www.wikicfp.com/cfp/program?id=748</ns1:url>
+    <ns1:edition rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ns1:edition>
+    <ns1:workshopChair>Christopher Sheppard</ns1:workshopChair>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/proceeding_8195619e-1783-4b34-a498-ee0276fa6a73">
+    <rdf:type rdf:resource="http://www.example.edu/research/proceedings"/>
+    <ns1:name>Nature Biotechnology</ns1:name>
+    <ns1:city>Port Christianton</ns1:city>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/proceeding_886c1b07-2806-4bc5-b5e5-0bb14e9a50b2">
+    <rdf:type rdf:resource="http://www.example.edu/research/proceedings"/>
+    <ns1:name>Journal of Organizational and End User Computing</ns1:name>
+    <ns1:city>Leeborough</ns1:city>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/paper_609471b915f5764f63148c1195590b1085a5067b">
+    <ns1:presented_in_work rdf:resource="http://www.example.edu/research/workshop_8fe2bc2e-b6cc-45a8-8a71-1b5a3853942e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/paper_9d6df0c771cd88153705f7822e5b70765bd75321">
+    <ns1:cites rdf:resource="http://www.example.edu/research/paper_6dbcc8b895dc4cfcdbeef2f40df2d359430c63de"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/paper_6b21f79054e41060dbc3303cad2667873b20e229">
+    <ns1:published_in rdf:resource="http://www.example.edu/research/conference_2f5d0e8a-faad-4f10-b323-2b2e3c439a78"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/author_6391996.0">
+    <rdf:type rdf:resource="http://www.example.edu/research/author"/>
+    <ns1:name>Evan Bolyen</ns1:name>
+    <ns1:email>evan.bolyen@rileyllc.com</ns1:email>
+    <ns1:writes rdf:resource="http://www.example.edu/research/paper_133bcd7488a3c07cb0f493a87564c30e5433768c"/>
+    <ns1:corresponding_author rdf:resource="http://www.example.edu/research/paper_133bcd7488a3c07cb0f493a87564c30e5433768c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/workshop_133bcd7488a3c07cb0f493a87564c30e5433768c">
+    <ns1:work_is_partof rdf:resource="http://www.example.edu/research/proceeding_61789745-207a-4be6-bf3b-868908569b91"/>
+    <ns1:work_is_partof rdf:resource="http://www.example.edu/research/proceeding_d336c185-b99e-4275-a1ea-417f98b1a375"/>
+    <ns1:work_is_partof rdf:resource="http://www.example.edu/research/proceeding_fb74dc9f-b1b6-49f1-a59e-ccedba366077"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/paper_8bb6a6802027c7f2489accb0559e6f02984535c9">
+    <ns1:published_in rdf:resource="http://www.example.edu/research/conference_759663ae-c1b4-41ef-9231-384ab473d4b4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/paper_95543515c290a9d0c6c3f7b94e8087936950b40c">
+    <ns1:cites rdf:resource="http://www.example.edu/research/paper_6dbcc8b895dc4cfcdbeef2f40df2d359430c63de"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/paper_398b154013db9d8025bf60f910bc156dedd9b40e">
+    <ns1:presented_in rdf:resource="http://www.example.edu/research/conference_b55b50b1-aae7-47a7-b042-8aecc930073d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/proceeding_058abbc1-1a6b-4f10-8bc9-d89b17dbf602">
+    <rdf:type rdf:resource="http://www.example.edu/research/proceedings"/>
+    <ns1:name>Big Data and Cognitive Computing</ns1:name>
+    <ns1:city>East Jonathantown</ns1:city>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/keyword_fb74dc9f-b1b6-49f1-a59e-ccedba366077">
+    <rdf:type rdf:resource="http://www.example.edu/research/keywords"/>
+    <ns1:name>data storage</ns1:name>
+    <ns1:domain>Database</ns1:domain>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/paper_e51fe5e9f39538a4b936a99ffa11a12f9c27c967">
+    <ns1:presented_in_work rdf:resource="http://www.example.edu/research/workshop_6a1abd85-3eca-4491-ac76-0134749a10fc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/paper_5e63e47cb3386b032ec43a92ce5980466228c761">
+    <ns1:presented_in_work rdf:resource="http://www.example.edu/research/workshop_cdd7667c-05b7-4d41-83f6-3dadd7d418c7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/reviewer_144060663">
+    <rdf:type rdf:resource="http://www.example.edu/research/reviewer"/>
+    <ns1:reviews rdf:resource="http://www.example.edu/research/paper_133bcd7488a3c07cb0f493a87564c30e5433768c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/keyword_d336c185-b99e-4275-a1ea-417f98b1a375">
+    <rdf:type rdf:resource="http://www.example.edu/research/keywords"/>
+    <ns1:name>big data</ns1:name>
+    <ns1:domain>Database</ns1:domain>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/paper_7282f5c9d84cd47c516a6a66c5a6b8f1e2cf44b6">
+    <ns1:presented_in rdf:resource="http://www.example.edu/research/conference_b55b50b1-aae7-47a7-b042-8aecc930073d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/paper_82524ddee00fa0895dfca43995a7ec8bdb16f0d5">
+    <ns1:cites rdf:resource="http://www.example.edu/research/paper_6dbcc8b895dc4cfcdbeef2f40df2d359430c63de"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.edu/research/paper_f9d403c58db99e2214f43e5b1740694b9c79002f">
+    <ns1:presented_in rdf:resource="http://www.example.edu/research/conference_a36dc29e-4ea1-4567-b0fe-1c06daf8bee8"/>
+  </rdf:Description>
+</rdf:RDF>

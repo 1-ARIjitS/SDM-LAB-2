@@ -26,19 +26,18 @@ research = Namespace("http://www.example.edu/research/")
 # Create a new Graph
 g = Graph()
 
-# Adding triples
+# Adding instances 
 
 # adding paper node
-# g.add((research.paper, RDF.type, RDFS.Class))
-# Instance- adding papers
 df_node_papers= pd.read_csv("DATA/CSV_FILES/papers.csv", delimiter=",")
+print("processing paper node...")
 for index, row in df_node_papers.iterrows():
     paper_id = URIRef(research + f"paper_{row['paperId']}")
     title = Literal(row["title"])
     abstract = Literal(row["abstract"])
     pages = Literal(row["pages"])
     doi = Literal(row["DOI"])
-    link = Literal(row["link"])
+    link = URIRef(row["link"])
     date = Literal(row["date"])
 
     # Add triples to the graph
@@ -51,9 +50,8 @@ for index, row in df_node_papers.iterrows():
     g.add((paper_id, research.date, date))
 
 # adding author node
-# g.add((research.author, RDF.type, RDFS.Class))
-# Instance- adding authors
 df_node_authors= pd.read_csv("DATA/CSV_FILES/authors.csv", delimiter=",")
+print("processing author node...")
 for index, row in df_node_authors.iterrows():
     author_id = URIRef(research + f"author_{row['authorId']}")
     name = Literal(row["name"])
@@ -64,50 +62,23 @@ for index, row in df_node_authors.iterrows():
     g.add((author_id, research.name, name))
     g.add((author_id, research.email, email))
 
-# adding writes node
-# g.add((research.writes, RDF.type, RDFS.Class))
-
-# # adding edge between author and writes
-# g.add((research.write_role, RDFS.domain, research.author))
-# g.add((research.write_role, RDFS.range, research.writes))
-# g.add((research.write_role, RDF.type, RDF.Property))
-
-# # adding edge between writes and paper
-# g.add((research.write, RDFS.domain, research.writes))
-# g.add((research.write, RDFS.range, research.paper))
-# g.add((research.write, RDF.type, RDF.Property))
-
-# adding the writes and the corresponding_author edges
-# g.add((research.writes, RDFS.domain, research.author))
-# g.add((research.writes, RDFS.range, research.paper))
-# g.add((research.writes, RDF.type, RDF.Property))
-
-# g.add((research.corresponding_author, RDFS.domain, research.author))
-# g.add((research.corresponding_author, RDFS.range, research.paper))
-# g.add((research.corresponding_author, RDF.type, RDF.Property))
-# g.add((research.corresponding_author, RDFS.subPropertyOf, research.writes))
-
-# adding author writes paper node
+# adding author writes paper property
 df_node_author_writes_paper= pd.read_csv("DATA/CSV_FILES/author_writes.csv", delimiter=",")
+print("processing author writes paper and corresponding author edge...")
 for index, row in df_node_author_writes_paper.iterrows():
     # author_writes_paper_id= URIRef(research + f"awp_{index}")
     author_id = URIRef(research + f"author_{row['start_id']}")
     paper_id = URIRef(research + f"paper_{row['end_id']}")
-    corresponding_author = Literal(row["corresponding_author"])
+    corresponding_author = str(row["corresponding_author"])
 
-    # Add triples to the graph
-    # g.add((author_writes_paper_id, RDF.type, research.writes))
-    # g.add((author_id, research.write_role, author_writes_paper_id))
-    # g.add((author_writes_paper_id, research.write, paper_id))
-    # g.add((author_writes_paper_id, research.corresponding_author, corresponding_author))
     g.add((author_id, research.writes, paper_id))
-    g.add((author_id, research.corresponding_author, paper_id))
-    g.add((author_id, research.is_corresponding_author, corresponding_author))
+    # only adding those edges that where corresponding_author is true
+    if corresponding_author.lower() == 'true':
+        g.add((author_id, research.corresponding_author, paper_id))
 
 # adding conferences node
-# g.add((research.conferences, RDF.type, RDFS.Class))
-# Instance- adding conferences
 df_node_conferences= pd.read_csv("DATA/CSV_FILES/conferences.csv", delimiter=",")
+print("processing conferences node...")
 for index, row in df_node_conferences.iterrows():
     conference_id = URIRef(research + f"conference_{row['publicationId']}")
     name = Literal(row["name"])
@@ -129,9 +100,8 @@ for index, row in df_node_conferences.iterrows():
     g.add((conference_id, research.conferenceChair, chair))
 
 # adding workshops node
-# g.add((research.workshops, RDF.type, RDFS.Class))
-# Instance- adding workshops
 df_node_workshops= pd.read_csv("DATA/CSV_FILES/workshops.csv", delimiter=",")
+print("processing workshops node...")
 for index, row in df_node_workshops.iterrows():
     workshop_id = URIRef(research + f"workshop_{row['publicationId']}")
     name = Literal(row["name"])
@@ -153,9 +123,8 @@ for index, row in df_node_workshops.iterrows():
     g.add((workshop_id, research.workshopChair, chair))
 
 # adding journals node
-# g.add((research.journals, RDF.type, RDFS.Class))
-# Instance- adding journals
 df_node_journals= pd.read_csv("DATA/CSV_FILES/journal.csv", delimiter=",")
+print("processing journals node...")
 for index, row in df_node_journals.iterrows():
     journal_id = URIRef(research + row['publicationId'])
     publication_type = Literal(row['publicationType'])
@@ -179,9 +148,8 @@ for index, row in df_node_journals.iterrows():
     g.add((journal_id, research.journalEditor, editor))
 
 # adding keywords node
-# g.add((research.keywords, RDF.type, RDFS.Class))
-# Instance- adding keywords
 df_node_keywords= pd.read_csv("DATA/CSV_FILES/keywords.csv", delimiter=",")
+print("processing keywords node...")
 for index, row in df_node_keywords.iterrows():
     keyword_id = URIRef(research + f"keyword_{row['ID']}")
     name = Literal(row["name"])
@@ -193,9 +161,8 @@ for index, row in df_node_keywords.iterrows():
     g.add((keyword_id, research.domain, domain))
 
 # adding proceedings node
-# g.add((research.proceedings, RDF.type, RDFS.Class))
-# Instance- adding proceedings
 df_node_proceedings= pd.read_csv("DATA/CSV_FILES/proceedings.csv", delimiter=",")
+print("processing proceedings node...")
 for index, row in df_node_proceedings.iterrows():
     proceeding_id = URIRef(research + f"proceeding_{row['ID']}")
     name = Literal(row["name"])
@@ -206,17 +173,9 @@ for index, row in df_node_proceedings.iterrows():
     g.add((proceeding_id, research.name, name))
     g.add((proceeding_id, research.city, city))
 
-# # adding reviewer derived node
-# g.add((research.reviewer, RDFS.subClassOf, research.author))
-# g.add((research.reviewer, RDF.type, RDFS.Class))
-
-# # adding reviews edge
-# g.add((research.reviews, RDFS.domain, research.reviewer))
-# g.add((research.reviews, RDFS.range, research.paper))
-# g.add((research.reviews, RDF.type, RDF.Property))
-
-# Instance- adding reviewers node and reviews edge
+# adding reviews edge
 df_node_reviewers= pd.read_csv("DATA/CSV_FILES/reviews_with_decisions.csv", delimiter=",")
+print("processing reviewer reviews paper edge...")
 for index, row in df_node_reviewers.iterrows():
     reviewer_id = URIRef(research + f"reviewer_{row['reviewerId']}")
     paper_id = URIRef(research + f"paper_{row['paperId']}")
@@ -225,17 +184,9 @@ for index, row in df_node_reviewers.iterrows():
     g.add((reviewer_id, RDF.type, research.reviewer))
     g.add((reviewer_id, research.reviews, paper_id))
 
-# adding cited_paper derived node 
-# g.add((research.cited_paper, RDFS.subClassOf, research.paper))
-# g.add((research.cited_paper, RDF.type, RDFS.Class))
-
-# # adding cites edge
-# g.add((research.cites, RDFS.domain, research.paper))
-# g.add((research.cites, RDFS.range, research.paper))
-# g.add((research.cites, RDF.type, RDF.Property))
-
-# Instance- adding cited_paper node and cites edge
+# adding cites edge
 df_node_cited_papers= pd.read_csv("DATA/CSV_FILES/paper_cite_paper.csv", delimiter=",")
+print("processing paper cites paper edge...")
 for index, row in df_node_cited_papers.iterrows():
     paper_id = URIRef(research + f"paper_{row['paper_id']}")
     cited_paper_id = URIRef(research + f"paper_{row['cited_paper_id']}")
@@ -243,13 +194,9 @@ for index, row in df_node_cited_papers.iterrows():
     # Add triples to the graph
     g.add((paper_id, research.cites, cited_paper_id))
 
-# # adding presented_in edge for conferences 
-# g.add((research.presented_in, RDFS.domain, research.paper))
-# g.add((research.presented_in, RDFS.range, research.conferences))
-# g.add((research.presented_in, RDF.type, RDF.Property))
-
-# Instance- adding paper_presented_in_condferences edge
+# adding paper_presented_in_condferences edge
 df_edge_paper_presented_in_conference= pd.read_csv("DATA/CSV_FILES/paper_presented_in_conference.csv", delimiter=",")
+print("processing paper presented in conference edge...")
 for index, row in df_edge_paper_presented_in_conference.iterrows():
     paper_id = URIRef(research + f"paper_{row['START_ID']}")
     conference_id = URIRef(research + f"conference_{row['END_ID']}")
@@ -257,13 +204,9 @@ for index, row in df_edge_paper_presented_in_conference.iterrows():
     # Add triples to the graph
     g.add((paper_id, research.presented_in, conference_id))
 
-# # adding presented_in edge for workshops 
-# g.add((research.presented_in_work, RDFS.domain, research.paper))
-# g.add((research.presented_in_work, RDFS.range, research.workshops))
-# g.add((research.presented_in_work, RDF.type, RDF.Property))
-
-# Instance- adding paper_presented_in_workshops edge
+# adding paper_presented_in_workshops edge
 df_edge_paper_presented_in_workshop= pd.read_csv("DATA/CSV_FILES/paper_presented_in_workshop.csv", delimiter=",")
+print("processing paper presented in workshop edge...")
 for index, row in df_edge_paper_presented_in_workshop.iterrows():
     paper_id = URIRef(research + f"paper_{row['START_ID']}")
     workshop_id = URIRef(research + f"workshop_{row['END_ID']}")
@@ -271,13 +214,9 @@ for index, row in df_edge_paper_presented_in_workshop.iterrows():
     # Add triples to the graph
     g.add((paper_id, research.presented_in_work, workshop_id))
 
-# # adding published_in edge for journals 
-# g.add((research.published_in, RDFS.domain, research.paper))
-# g.add((research.published_in, RDFS.range, research.journals))
-# g.add((research.published_in, RDF.type, RDF.Property))
-
-# Instance- adding paper_published_in_journals edge
+# adding paper_published_in_journals edge
 df_edge_paper_published_in_journal= pd.read_csv("DATA/CSV_FILES/paper_published_in_journal.csv", delimiter=",")
+print("processing paper published in journal edge...")
 for index, row in df_edge_paper_published_in_journal.iterrows():
     paper_id = URIRef(research + f"paper_{row['START_ID']}")
     journal_id = URIRef(research + f"conference_{row['END_ID']}")
@@ -285,13 +224,9 @@ for index, row in df_edge_paper_published_in_journal.iterrows():
     # Add triples to the graph
     g.add((paper_id, research.published_in, journal_id))
 
-# # adding has edge for papers 
-# g.add((research.has, RDFS.domain, research.paper))
-# g.add((research.has, RDFS.range, research.keywords))
-# g.add((research.has, RDF.type, RDF.Property))
-
-# Instance- adding paper_has_keywords edge
+# adding has edge
 df_edge_paper_has_keywords= pd.read_csv("DATA/CSV_FILES/paper_keyword.csv", delimiter=",")
+print("processing paper has keywords edge...")
 for index, row in df_edge_paper_has_keywords.iterrows():
     paper_id = URIRef(research + f"paper_{row['START_ID']}")
     keyword_id = URIRef(research + f"keyword_{row['END_ID']}")
@@ -299,13 +234,9 @@ for index, row in df_edge_paper_has_keywords.iterrows():
     # Add triples to the graph
     g.add((paper_id, research.has, keyword_id))
 
-# # adding is_partof edge for conferences 
-# g.add((research.is_partof, RDFS.domain, research.conferences))
-# g.add((research.is_partof, RDFS.range, research.proceedings))
-# g.add((research.is_partof, RDF.type, RDF.Property))
-
-# Instance- adding confernce_is_part_of_proceedings edge
+# adding confernce_is_part_of_proceedings edge
 df_edge_conference_is_part_of_proceedings= pd.read_csv("DATA/CSV_FILES/conference_part_of_proceedings.csv", delimiter=",")
+print("processing conference is part of proceedings edge...")
 for index, row in df_edge_conference_is_part_of_proceedings.iterrows():
     conference_id = URIRef(research + f"conference_{row['START_ID']}")
     proceeding_id = URIRef(research + f"proceeding_{row['END_ID']}")
@@ -313,13 +244,9 @@ for index, row in df_edge_conference_is_part_of_proceedings.iterrows():
     # Add triples to the graph
     g.add((conference_id, research.is_partof, proceeding_id))
 
-# # adding is_partof edge for workshops
-# g.add((research.work_is_partof, RDFS.domain, research.workshops))
-# g.add((research.work_is_partof, RDFS.range, research.proceedings))
-# g.add((research.work_is_partof, RDF.type, RDF.Property))
-
 # Instance- adding workshop_is_part_of_proceedings edge
 df_edge_workshop_is_part_of_proceedings= pd.read_csv("DATA/CSV_FILES/paper_keyword.csv", delimiter=",")
+print("processing workshop is part of proceedings edge...")
 for index, row in df_edge_workshop_is_part_of_proceedings.iterrows():
     workshop_id = URIRef(research + f"workshop_{row['START_ID']}")
     proceeding_id = URIRef(research + f"proceeding_{row['END_ID']}")
@@ -327,10 +254,7 @@ for index, row in df_edge_workshop_is_part_of_proceedings.iterrows():
     # Add triples to the graph
     g.add((workshop_id, research.work_is_partof, proceeding_id))
 
-# Serialize the graph to a file
-# print(g.serialize())
-# creating directory
-directory = './TBOX_DATA/'
+directory = './ABOX_DATA/'
 
 # Create the directory if it doesn't exist
 if not os.path.exists(directory):
