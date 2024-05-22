@@ -1,0 +1,16 @@
+property
+http://www.example.edu/research/is_partof
+http://www.example.edu/research/conferenceChair
+http://www.example.edu/research/conference_name
+http://www.example.edu/research/conference_year
+http://www.example.edu/research/conference_venue
+http://www.example.edu/research/conference_issn
+http://www.example.edu/research/conference_url
+http://www.example.edu/research/conference_edition
+http://www.example.edu/research/journalEditor
+http://www.example.edu/research/journal_name
+http://www.example.edu/research/journal_venue
+http://www.example.edu/research/journal_year
+http://www.example.edu/research/journal_issn
+http://www.example.edu/research/journal_url
+http://www.example.edu/research/journal_volume

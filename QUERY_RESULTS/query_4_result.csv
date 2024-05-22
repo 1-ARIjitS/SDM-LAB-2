@@ -1,0 +1,399 @@
+author_name,paper_title
+A. Acero,Learning deep structured semantic models for web search using clickthrough data
+A. Bozzon,A Platform for Urban Analytics and Semantic Data Integration in City Planning
+A. Danyluk,ACM Task Force on Data Science Education: Draft Report and Opportunity for Feedback
+A. El-Bastawissy,Data warehouse testing
+A. Joseph,Adversarial machine learning
+A. Karpathy,Deep visual-semantic alignments for generating image descriptions
+A. Oliva,Learning Deep Features for Scene Recognition using Places Database
+A. Psyllidis,A Platform for Urban Analytics and Semantic Data Integration in City Planning
+A. Swami,Practical Black-Box Attacks against Machine Learning
+A. Torralba,Learning Deep Features for Scene Recognition using Places Database
+Adam Pauls,Constrained Language Models Yield Few-Shot Semantic Parsers
+Alessandro Anna Emily Emmanuel Georg Ghassem Guang Helmut Jac Ruggiero Korhonen Jefferson Ako Langs Gozaliasl Ya,Semantic Earth Observation Data Cubes
+Alessandro Anna Emily Emmanuel Georg Ghassem Guang Helmut Jac Ruggiero Korhonen Jefferson Ako Langs Gozaliasl Ya,A Simple Baseline for Semi-supervised Semantic Segmentation with Strong Data Augmentation*
+Alexey Kurakin,Adversarial Machine Learning at Scale
+Amir Zamir,3D Semantic Parsing of Large-Scale Indoor Spaces
+Amirata Ghorbani,Data Shapley: Equitable Valuation of Data for Machine Learning
+Andrea Baraldi,Semantic Earth Observation Data Cubes
+Andrea Baraldi,A Simple Baseline for Semi-supervised Semantic Segmentation with Strong Data Augmentation*
+Andres Milioto,RangeNet ++: Fast and Accurate LiDAR Semantic Segmentation
+Antonio M. López,The SYNTHIA Dataset: A Large Collection of Synthetic Images for Semantic Segmentation of Urban Scenes
+Anze Vavpetic,Semantic Data Mining of Financial News Articles
+Arnab Phani,SystemDS: A Declarative Machine Learning System for the End-to-End Data Science Lifecycle
+Arvind Satyanarayan,Sherlock: A Deep Learning Approach to Semantic Data Type Detection
+Ashish Thusoo,Hive - a petabyte scale data warehouse using Hadoop
+B. Glocker,Domain Generalization via Model-Agnostic Learning of Semantic Features
+B. L. Saux,Semantic Segmentation of Earth Observation Data Using Multimodal and Multi-scale Deep Networks
+B. Mitschang,The Deep Data Warehouse: Link-Based Integration and Enrichment of Warehouse Data and Unstructured Content
+B. Nelson,Adversarial machine learning
+B. Pang,Thumbs up? Sentiment Classification using Machine Learning Techniques
+B. Schiele,The Cityscapes Dataset for Semantic Urban Scene Understanding
+B. V. Merrienboer,Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation
+B. V. Vijaya Kumar,Unsupervised Domain Adaptation for Semantic Segmentation via Class-Balanced Self-training
+B. Villazón-Terrazas,Towards Vagueness-Aware Semantic Data
+Benjamin I. P. Rubinstein,Adversarial machine learning
+Benjamin Rath,SystemDS: A Declarative Machine Learning System for the End-to-End Data Science Lifecycle
+Benjamin Van Durme,Constrained Language Models Yield Few-Shot Semantic Parsers
+Bolei Zhou,Learning Deep Features for Scene Recognition using Places Database
+Bowen Liu,Open Graph Benchmark: Datasets for Machine Learning on Graphs
+Byungnam Lim,Tajo: A distributed data warehouse system on large clusters
+C. E. Cuesta,Towards an Architecture for Managing Big Semantic Data in Real-Time
+C. H. Lin,Constrained Language Models Yield Few-Shot Semantic Parsers
+C. Hudelot,Semi-Supervised Semantic Segmentation With Cross-Consistency Training
+C. Lange,Semantic Data Integration for Knowledge Graph Construction at Query Time
+C. Servin,ACM Task Force on Data Science Education: Draft Report and Opportunity for Feedback
+C. Stachniss,RangeNet ++: Fast and Accurate LiDAR Semantic Segmentation
+C. T. Bolivar,A Platform for Urban Analytics and Semantic Data Integration in City Planning
+Casey Dugan,AutoDS: Towards Human-Centered Automation of Data Science
+Casey Dugan,"How Data Science Workers Work with Data: Discovery, Capture, Curation, Design, Creation"
+Changick Kim,Self-Ensembling With GAN-Based Data Augmentation for Domain Adaptation in Semantic Segmentation
+Changxin Gao,Adversarial Semantic Data Augmentation for Human Pose Estimation
+Chao Wu,Discovering Semantic Data of Interest from Un-mappable Memory with Confidence
+Chaofan Chen,Semantic Earth Observation Data Cubes
+Chaofan Chen,A Simple Baseline for Semi-supervised Semantic Segmentation with Strong Data Augmentation*
+Charles C. Chen,Constrained Language Models Yield Few-Shot Semantic Parsers
+Cheng Wu,Implicit Semantic Data Augmentation for Deep Networks
+Chengjie Wang,Adversarial Semantic Data Augmentation for Human Pose Estimation
+Chengliang Liu,Knowledge Reasoning with Semantic Data for Real-Time Data Processing in Smart Factory
+Christian Aebeloe,A Decentralized Architecture for Sharing and Querying Semantic Data
+Christoph Gröger,The Deep Data Warehouse: Link-Based Integration and Enrichment of Warehouse Data and Unstructured Content
+Christos Sakaridis,Model Adaptation with Synthetic and Real Data for Semantic Dense Foggy Scene Understanding
+Chunhua Shen,A Simple Baseline for Semi-supervised Semantic Segmentation with Strong Data Augmentation*
+Congzheng Song,Membership Inference Attacks Against Machine Learning Models
+César A. Hidalgo,Sherlock: A Deep Learning Approach to Semantic Data Type Detection
+D. Bochtis,Machine Learning in Agriculture: A Review
+D. Collarana,Semantic Data Integration for Knowledge Graph Construction at Query Time
+D. Klein,Constrained Language Models Yield Few-Shot Semantic Parsers
+D. Moshou,Machine Learning in Agriculture: A Review
+D. Scharstein,A Database and Evaluation Methodology for Optical Flow
+D. Tiede,Semantic Earth Observation Data Cubes
+D. Winkler,Evaluation of semantic data storages for integrating heterogenous disciplines in automation systems engineering
+D. Yeung,Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting
+D. Zumstein,A Fuzzy Data Warehouse Approach for Web Analytics
+Dakuo Wang,AutoDS: Towards Human-Centered Automation of Data Science
+Dakuo Wang,"How Data Science Workers Work with Data: Discovery, Capture, Curation, Design, Creation"
+Daniel Coelho de Castro,Domain Generalization via Model-Agnostic Learning of Semantic Features
+Daniel Fasel,A Fuzzy Data Warehouse Approach for Web Analytics
+David J. Fleet,VSE++: Improving Visual-Semantic Embeddings with Hard Negatives
+David Piorkowski,"How Data Science Workers Work with Data: Discovery, Capture, Curation, Design, Creation"
+David Vázquez,The SYNTHIA Dataset: A Large Collection of Synthetic Images for Semantic Segmentation of Urban Scenes
+Dekang Lin,Book Reviews: WordNet: An Electronic Lexical Database
+Dengxin Dai,Model Adaptation with Synthetic and Real Data for Semantic Dense Foggy Scene Understanding
+Di Li,Knowledge Reasoning with Semantic Data for Real-Time Data Processing in Smart Factory
+Dimitris N. Metaxas,Semantic Graph Convolutional Networks for 3D Human Pose Regression
+Dongyan Xu,Discovering Semantic Data of Interest from Un-mappable Memory with Confidence
+Dzmitry Bahdanau,Neural Machine Translation by Jointly Learning to Align and Translate
+Dzmitry Bahdanau,Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation
+E. Conchon,Engineering IoT Healthcare Applications: Towards a Semantic Data Driven Sustainable Architecture
+E. Konukoglu,Exploring Cross-Image Pixel Contrast for Semantic Segmentation
+E. Rosten,Machine Learning for High-Speed Corner Detection
+Elisa Turricchia,Modern Software Engineering Methodologies Meet Data Warehouse Design: 4WD
+Elyor Kodirov,Semantic Autoencoder for Zero-Shot Learning
+Emanuel Zgraggen,Sherlock: A Deep Learning Approach to Semantic Data Type Detection
+Emmanouil Antonios Platanios,Constrained Language Models Yield Few-Shot Semantic Parsers
+Erick Oduor,AutoDS: Towards Human-Centered Automation of Data Science
+Erwin Ardianto Halim,Use data warehouse and data mining to predict student academic performance in schools: A case study (perspective application and benefits)
+Estefanía Serral,Evaluation of semantic data storages for integrating heterogenous disciplines in automation systems engineering
+Estíbaliz Garrote,HMDB: A large video database for human motion recognition
+Evans Rs,Clinical Use of an Enterprise Data Warehouse
+F. Nashashibi,Sparse and Dense Data with CNNs: Depth Completion and Semantic Segmentation
+F. Ravat,Olap aggregation function for textual data warehouse
+F. Saleh,Effective Use of Synthetic Data for Urban Scene Semantic Segmentation
+F. Yu,Exploring Cross-Image Pixel Contrast for Semantic Segmentation
+Fartash Faghri,VSE++: Improving Visual-Semantic Embeddings with Hard Negatives
+Fei Pan,Unsupervised Intra-Domain Adaptation for Semantic Segmentation Through Self-Supervision
+Feiyue Huang,Adversarial Semantic Data Augmentation for Human Pose Estimation
+Fethi Bougares,Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation
+Florijan Klezin,SystemDS: A Declarative Machine Learning System for the End-to-End Data Science Lifecycle
+François Rameau,Unsupervised Intra-Domain Adaptation for Semantic Segmentation Through Self-Supervision
+G. Galal-Edeen,Data warehouse testing
+G. Miller,WordNet: A Lexical Database for English
+G. Ros,The SYNTHIA Dataset: A Large Collection of Synthetic Images for Semantic Segmentation of Urban Scenes
+Gabriela Montoya,A Decentralized Architecture for Sharing and Querying Semantic Data
+Gang Zeng,Semi-Supervised Semantic Segmentation with Cross Pseudo Supervision
+Gao Huang,Implicit Semantic Data Augmentation for Deep Networks
+George J. Pappas,Probabilistic data association for semantic SLAM
+Gonzalo A. Ramos,AnchorViz: Facilitating Classifier Error Discovery through Interactive Semantic Data Exploration
+H. Augustin,Semantic Earth Observation Data Cubes
+H. Larochelle,Practical Bayesian Optimization of Machine Learning Algorithms
+H. Liu,Hive - a petabyte scale data warehouse using Hadoop
+H. Mühleisen,Data Management for Data Science - Towards Embedded Analytics
+H. Schwarz,The Deep Data Warehouse: Link-Based Integration and Enrichment of Warehouse Data and Unstructured Content
+H. Watson,Key organizational factors in data warehouse architecture selection
+Hadj Mahboubi,Enhancing XML data warehouse query performance by fragmentation
+Haemi Yang,Tajo: A distributed data warehouse system on large clusters
+Hao Li,Semantic Earth Observation Data Cubes
+Hao Li,A Simple Baseline for Semi-supervised Semantic Segmentation with Strong Data Augmentation*
+Hao Wang,Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting
+Haofen Wang,HadoopRDF: A Scalable Semantic Data Analytical Engine
+Harco Leslie Hendric Spits Wamars,Datawarehouser: A data warehouse artist who have ability to understand data warehouse schema pictures
+Helen Jiang,3D Semantic Parsing of Large-Scale Indoor Spaces
+Hilde Kuehne,HMDB: A large video database for human motion recognition
+Himalaya Jain,ADVENT: Adversarial Entropy Minimization for Domain Adaptation in Semantic Segmentation
+Holger Schwenk,Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation
+Hong Zhang,Implicit Semantic Data Augmentation for Deep Networks
+Hongyu Ren,Open Graph Benchmark: Datasets for Machine Learning on Graphs
+Hridesh Rajan,"The Art and Practice of Data Science Pipelines: A Comprehensive Study of Data Science Pipelines In Theory, In-The-Small, and In-The-Large"
+Hueihan Jhuang,HMDB: A large video database for human motion recognition
+Hui Li,Semantic Earth Observation Data Cubes
+Hui Li,A Simple Baseline for Semi-supervised Semantic Segmentation with Strong Data Augmentation*
+Hyoseok Ryu,Tajo: A distributed data warehouse system on large clusters
+Hyunsik Choi,Tajo: A distributed data warehouse system on large clusters
+I. Antonov,SystemDS: A Declarative Machine Learning System for the End-to-End Data Science Lifecycle
+I. Brilakis,3D Semantic Parsing of Large-Scale Indoor Spaces
+I. Goodfellow,Adversarial Machine Learning at Scale
+I. Goodfellow,Practical Black-Box Attacks against Machine Learning
+I. Mozetič,Semantic Data Mining of Financial News Articles
+I. Ribón,Semantic Data Integration for Knowledge Graph Construction at Query Time
+Ignacio Vizzo,RangeNet ++: Fast and Accurate LiDAR Semantic Segmentation
+In-So Kweon,Unsupervised Intra-Domain Adaptation for Semantic Segmentation Through Self-Supervision
+Ingrid Lange,"How Data Science Workers Work with Data: Discovery, Capture, Curation, Design, Creation"
+Inkyu Shin,Unsupervised Intra-Domain Adaptation for Semantic Segmentation Through Self-Supervision
+Iro Armeni,3D Semantic Parsing of Large-Scale Indoor Spaces
+J. Behley,RangeNet ++: Fast and Accurate LiDAR Semantic Segmentation
+J. D. Tygar,Adversarial machine learning
+J. Darmont,Enhancing XML data warehouse query performance by fragmentation
+J. Eisner,Constrained Language Models Yield Few-Shot Semantic Parsers
+J. Kiros,VSE++: Improving Visual-Semantic Embeddings with Hard Negatives
+J. Leskovec,Open Graph Benchmark: Datasets for Machine Learning on Graphs
+J. P. Lewis,A Database and Evaluation Methodology for Optical Flow
+J. Rhee,Discovering Semantic Data of Interest from Un-mappable Memory with Confidence
+J. Verwey,AnchorViz: Facilitating Classifier Error Discovery through Interactive Semantic Data Exploration
+J. Wan,Knowledge Reasoning with Semantic Data for Real-Time Data Processing in Smart Factory
+J. Álvarez,Effective Use of Synthetic Data for Urban Scene Semantic Segmentation
+Jaehoon Choi,Self-Ensembling With GAN-Based Data Augmentation for Domain Adaptation in Semantic Segmentation
+Jaeyong Kang,MRI-Based Brain Tumor Classification Using Ensemble of Deep Features and Machine Learning Classifiers
+James Y. Zou,Data Shapley: Equitable Valuation of Data for Machine Learning
+Jason Tsay,"How Data Science Workers Work with Data: Discovery, Capture, Curation, Design, Creation"
+Jasper Snoek,Practical Bayesian Optimization of Machine Learning Algorithms
+Javier D. Fernández,Towards an Architecture for Managing Big Semantic Data in Real-Time
+Jeff Z. Pan,Towards Vagueness-Aware Semantic Data
+Jeonghwan Gwak,MRI-Based Brain Tumor Classification Using Ensemble of Deep Features and Machine Learning Classifiers
+Jianfeng Gao,Learning deep structured semantic models for web search using clickthrough data
+Jianlong Yuan,A Simple Baseline for Semi-supervised Semantic Segmentation with Strong Data Augmentation*
+Jianxiong Xiao,Learning Deep Features for Scene Recognition using Places Database
+Jifeng Dai,Exploring Cross-Image Pixel Contrast for Semantic Segmentation
+Jihoon Son,Tajo: A distributed data warehouse system on large clusters
+Jilin Li,Adversarial Semantic Data Augmentation for Human Pose Estimation
+Jin-Hang Du,HadoopRDF: A Scalable Semantic Data Analytical Engine
+Jina Suh,AnchorViz: Facilitating Classifier Error Discovery through Interactive Semantic Data Exploration
+Jingdong Wang,Semi-Supervised Semantic Segmentation with Cross Pseudo Supervision
+Jinsong Wang,Unsupervised Domain Adaptation for Semantic Segmentation via Class-Balanced Self-training
+Joanna Materzynska,The SYNTHIA Dataset: A Large Collection of Synthetic Images for Semantic Segmentation of Urban Scenes
+Jorge Bernardino,Optimizing data warehouse loading procedures for enabling useful-time data warehousing
+Josh Andres,AutoDS: Towards Human-Centered Automation of Data Science
+Joydeep Sen Sarma,Hive - a petabyte scale data warehouse using Hadoop
+Justin D. Weisz,AutoDS: Towards Human-Centered Automation of Data Science
+K. Hose,A Decentralized Architecture for Sharing and Querying Semantic Data
+K. Hu,Sherlock: A Deep Learning Approach to Semantic Data Type Detection
+K. Kamnitsas,Domain Generalization via Model-Agnostic Learning of Semantic Features
+Kamlesh Makvana,Review on web search personalization through semantic data
+Kevin Innerebner,SystemDS: A Declarative Machine Learning System for the End-to-End Data Science Lifecycle
+Konstantinos G. Liakos,Machine Learning in Agriculture: A Review
+Kostas Daniilidis,Probabilistic data association for semantic SLAM
+Kyunghyun Cho,Neural Machine Translation by Jointly Learning to Align and Translate
+Kyunghyun Cho,Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation
+L. Bottou,Large-Scale Machine Learning with Stochastic Gradient Descent
+L. Cassel,ACM Task Force on Data Science Education: Draft Report and Opportunity for Feedback
+L. Deng,Learning deep structured semantic models for web search using clickthrough data
+L. Gool,Learning Semantic Segmentation From Synthetic Data: A Geometrically Guided Input-Output Adaptation Approach
+L. Gool,Exploring Cross-Image Pixel Contrast for Semantic Segmentation
+L. Gool,Model Adaptation with Synthetic and Real Data for Semantic Dense Foggy Scene Understanding
+L. Petersson,Effective Use of Synthetic Data for Urban Scene Semantic Segmentation
+Ladjel Bellatreche,Semantic Data Warehouse Design: From ETL to Deployment à la Carte
+Larry Heck,Learning deep structured semantic models for web search using clickthrough data
+Laura Sellart,The SYNTHIA Dataset: A Large Collection of Synthetic Images for Semantic Segmentation of Urban Scenes
+Leo Lahti,Open Data Science
+Li Fei-Fei,Deep visual-semantic alignments for generating image descriptions
+Lillian Lee,Thumbs up? Sentiment Classification using Machine Learning Techniques
+Ling Huang,Adversarial machine learning
+Lloyd Jf,Clinical Use of an Enterprise Data Warehouse
+Long Zhao,Semantic Graph Convolutional Networks for 3D Human Pose Regression
+Lov K. Grover,A fast quantum mechanical algorithm for database search
+M. Cord,ADVENT: Adversarial Entropy Minimization for Domain Adaptation in Semantic Segmentation
+M. Enzweiler,The Cityscapes Dataset for Semantic Urban Scene Understanding
+M. Golfarelli,Modern Software Engineering Methodologies Meet Data Warehouse Design: 4WD
+M. Jaritz,Sparse and Dense Data with CNNs: Depth Completion and Semantic Segmentation
+M. S. Aliakbarian,Effective Use of Synthetic Data for Urban Scene Semantic Segmentation
+M. Salzmann,Effective Use of Synthetic Data for Urban Scene Semantic Segmentation
+M. Stronati,Membership Inference Attacks Against Machine Learning Models
+M. Sudmanns,Semantic Earth Observation Data Cubes
+M. Zitnik,Open Graph Benchmark: Datasets for Machine Learning on Graphs
+Madelon Hulsebos,Sherlock: A Deep Learning Approach to Semantic Data Type Detection
+Maria-Esther Vidal,Semantic Data Integration for Knowledge Graph Construction at Query Time
+Marius Cordts,The Cityscapes Dataset for Semantic Urban Scene Understanding
+Mark Dokter,SystemDS: A Declarative Machine Learning System for the End-to-End Data Science Lifecycle
+Mark Raasveldt,Data Management for Data Science - Towards Embedded Analytics
+Martin Fischer,3D Semantic Parsing of Large-Scale Indoor Spaces
+Martin Leinberger,The Essence of Functional Programming on Semantic Data
+Matthias Boehm,SystemDS: A Declarative Machine Learning System for the End-to-End Data Science Lifecycle
+Matthias Fey,Open Graph Benchmark: Datasets for Machine Learning on Graphs
+Max Bucher,ADVENT: Adversarial Entropy Minimization for Domain Adaptation in Semantic Segmentation
+Michael J. Black,A Database and Evaluation Methodology for Optical Flow
+Michael J. Muller,"How Data Science Workers Work with Data: Discovery, Capture, Curation, Design, Creation"
+Michele Catasta,Open Graph Benchmark: Datasets for Machine Learning on Graphs
+Michiel A. Bakker,Sherlock: A Deep Learning Approach to Semantic Data Type Detection
+Miguel A. Martínez-Prieto,Towards an Architecture for Managing Big Semantic Data in Real-Time
+Miha Grcar,Semantic Data Mining of Financial News Articles
+Mikhail Galkin,Semantic Data Integration for Knowledge Graph Construction at Query Time
+Mohamed Omran,The Cityscapes Dataset for Semantic Urban Scene Understanding
+Mohammad Wardat,"The Art and Practice of Data Science Pipelines: A Comprehensive Study of Data Science Pipelines In Theory, In-The-Small, and In-The-Large"
+Mubbasir Kapadia,Semantic Graph Convolutional Networks for 3D Human Pose Regression
+Myriam Tami,Semi-Supervised Semantic Segmentation With Cross-Consistency Training
+N. Audebert,Semantic Segmentation of Earth Observation Data Using Multimodal and Multi-scale Deep Networks
+N. Chen,AnchorViz: Facilitating Classifier Error Discovery through Interactive Semantic Data Exploration
+N. Lavrač,Semantic Data Mining of Financial News Articles
+N. Sang,Adversarial Semantic Data Augmentation for Human Pose Estimation
+Nabila Berkani,Semantic Data Warehouse Design: From ETL to Deployment à la Carte
+Namit Jain,RCFile: A fast and space-efficient data placement structure in MapReduce-based warehouse systems
+Namit Jain,Hive - a petabyte scale data warehouse using Hadoop
+Neveen Elgamal,Data warehouse testing
+Nicolas Papernot,Practical Black-Box Attacks against Machine Learning
+Nikolay A. Atanasov,Probabilistic data association for semantic SLAM
+Ning Zhang,Hive - a petabyte scale data warehouse using Hadoop
+O. Kovalenko,Evaluation of semantic data storages for integrating heterogenous disciplines in automation systems engineering
+O. Teste,Olap aggregation function for textual data warehouse
+Ozan Sener,3D Semantic Parsing of Large-Scale Indoor Spaces
+P. Busato,Machine Learning in Agriculture: A Review
+P. Mcdaniel,Practical Black-Box Attacks against Machine Learning
+P. Pahwa,Alliance Rules for Data Warehouse Cleansing
+P. Pérez,ADVENT: Adversarial Entropy Minimization for Domain Adaptation in Semantic Segmentation
+P. Simard,AnchorViz: Facilitating Classifier Error Discovery through Interactive Semantic Data Exploration
+Panos Alexopoulos,Towards Vagueness-Aware Semantic Data
+Parth Shah,Review on web search personalization through semantic data
+Patel Jay,Review on web search personalization through semantic data
+Paul M. Leidig,ACM Task Force on Data Science Education: Draft Report and Opportunity for Feedback
+Payman Mohassel,SecureML: A System for Scalable Privacy-Preserving Machine Learning
+Percy Liang,Data Recombination for Neural Semantic Parsing
+Petra Kralj Novak,Semantic Data Mining of Financial News Articles
+Philip J. Guo,"Practitioners Teaching Data Science in Industry and Academia: Expectations, Workflows, and Challenges"
+Pierce La,Clinical Use of an Enterprise Data Warehouse
+Pinal Shah,Review on web search personalization through semantic data
+Po-Sen Huang,Learning deep structured semantic models for web search using clickthrough data
+Prasad Chakka,Hive - a petabyte scale data warehouse using Hadoop
+Q. Dou,Domain Generalization via Model-Agnostic Learning of Semantic Features
+Q. Liao,"How Data Science Workers Work with Data: Discovery, Capture, Curation, Design, Creation"
+R. Arora,Alliance Rules for Data Warehouse Cleansing
+R. Bastide,Engineering IoT Healthcare Applications: Towards a Semantic Data Driven Sustainable Architecture
+R. Cipolla,Fast-SCNN: Fast Semantic Segmentation Network
+R. Lämmel,The Essence of Functional Programming on Semantic Data
+R. Murthy,Hive - a petabyte scale data warehouse using Hadoop
+R. Randriatoamanana,Datawarehouser: A data warehouse artist who have ability to understand data warehouse schema pictures
+R. Santos,Optimizing data warehouse loading procedures for enabling useful-time data warehousing
+R. Shokri,Membership Inference Attacks Against Machine Learning Models
+R. Szeliski,A Database and Evaluation Methodology for Optical Flow
+R. Tournier,Olap aggregation function for textual data warehouse
+R. Zgheib,Engineering IoT Healthcare Applications: Towards a Semantic Data Driven Sustainable Architecture
+Rafal Kern,Data Warehouses Federation as a Single Data Warehouse
+Raoul de Charette,Sparse and Dense Data with CNNs: Depth Completion and Semantic Segmentation
+Richa Tanya Jeff Dennis A Colleen Evan Devon J Rodney St Agarwala Barrett Beck Benson Bollin Bolton Bourexi,Semantic Earth Observation Data Cubes
+Richa Tanya Jeff Dennis A Colleen Evan Devon J Rodney St Agarwala Barrett Beck Benson Bollin Bolton Bourexi,A Simple Baseline for Semi-supervised Semantic Segmentation with Strong Data Augmentation*
+Richard Mordinyi,Evaluation of semantic data storages for integrating heterogenous disciplines in automation systems engineering
+Richard Shin,Constrained Language Models Yield Few-Shot Semantic Parsers
+Robert Ginthoer,SystemDS: A Declarative Machine Learning System for the End-to-End Data Science Lifecycle
+Robin Jia,Data Recombination for Neural Semantic Parsing
+Rodrigo Benenson,The Cityscapes Dataset for Semantic Urban Scene Understanding
+Rubao Lee,RCFile: A fast and space-efficient data placement structure in MapReduce-based warehouse systems
+Rudra P. K. Poudel,Fast-SCNN: Fast Semantic Segmentation Network
+Ryan P. Adams,Practical Bayesian Optimization of Machine Learning Algorithms
+S. Auer,Semantic Data Integration for Knowledge Graph Construction at Query Time
+S. Biffl,Evaluation of semantic data storages for integrating heterogenous disciplines in automation systems engineering
+S. Bocconi,A Platform for Urban Analytics and Semantic Data Integration in City Planning
+S. Drucker,AnchorViz: Facilitating Classifier Error Discovery through Interactive Semantic Data Exploration
+S. Fidler,VSE++: Improving Visual-Semantic Embeddings with Hard Negatives
+S. Gong,Semantic Autoencoder for Zero-Shot Learning
+S. Jha,Practical Black-Box Attacks against Machine Learning
+S. Lang,Semantic Earth Observation Data Cubes
+S. Lefèvre,Semantic Segmentation of Earth Observation Data Using Multimodal and Multi-scale Deep Networks
+S. Pearson,Machine Learning in Agriculture: A Review
+S. Rizzi,Modern Software Engineering Methodologies Meet Data Warehouse Design: 4WD
+S. Roth,The Cityscapes Dataset for Semantic Urban Scene Understanding
+S. Roth,A Database and Evaluation Methodology for Optical Flow
+S. Savarese,3D Semantic Parsing of Large-Scale Indoor Spaces
+Sam Thomson,Constrained Language Models Yield Few-Shot Semantic Parsers
+Samy Bengio,Adversarial Machine Learning at Scale
+Satyavrat Wagle,Semantic data extraction over MQTT for IoTcentric wireless sensor networks
+Sean Kross,"Practitioners Teaching Data Science in Industry and Academia: Expectations, Workflows, and Challenges"
+Sean L. Bowman,Probabilistic data association for semantic SLAM
+Sebastian Ramos,The Cityscapes Dataset for Semantic Urban Scene Understanding
+Selma Khouri,Semantic Data Warehouse Design: From ETL to Deployment à la Carte
+Seokju Lee,Unsupervised Intra-Domain Adaptation for Semantic Segmentation Through Self-Supervision
+Shiji Song,Implicit Semantic Data Augmentation for Deep Networks
+Shivakumar Vaithyanathan,Thumbs up? Sentiment Classification using Machine Learning Techniques
+Shiyong Wang,Knowledge Reasoning with Semantic Data for Real-Time Data Processing in Smart Factory
+Shruti Jadon,A survey of loss functions for semantic segmentation
+Shubha Bansal,Alliance Rules for Data Warehouse Cleansing
+Simon Baker,A Database and Evaluation Methodology for Optical Flow
+Simon Hecker,Model Adaptation with Synthetic and Real Data for Semantic Dense Foggy Scene Understanding
+Soohyung Kim,Tajo: A distributed data warehouse system on large clusters
+Stefanie N. Lindstaedt,SystemDS: A Declarative Machine Learning System for the End-to-End Data Science Lifecycle
+Stefano Soatto,FDA: Fourier Domain Adaptation for Semantic Segmentation
+Steffen Staab,The Essence of Functional Programming on Semantic Data
+Stephan Liwicki,Fast-SCNN: Fast Semantic Segmentation Network
+Subhro Roy,Constrained Language Models Yield Few-Shot Semantic Parsers
+Sumon Biswas,"The Art and Practice of Data Science Pipelines: A Comprehensive Study of Data Science Pipelines In Theory, In-The-Small, and In-The-Large"
+Suresh Anthony,Hive - a petabyte scale data warehouse using Hadoop
+T. Drummond,Machine Learning for High-Speed Corner Detection
+T. Erickson,"How Data Science Workers Work with Data: Discovery, Capture, Curation, Design, Creation"
+T. Poggio,HMDB: A large video database for human motion recognition
+T. Xiang,Semantic Autoencoder for Zero-Shot Learning
+Taekyung Kim,Self-Ensembling With GAN-Based Data Augmentation for Domain Adaptation in Semantic Segmentation
+Thilini Ariyachandra,Key organizational factors in data warehouse architecture selection
+Thomas Serre,HMDB: A large video database for human motion recognition
+Tianfei Zhou,Exploring Cross-Image Pixel Contrast for Semantic Segmentation
+Tim Kraska,Sherlock: A Deep Learning Approach to Semantic Data Type Detection
+Timo Rehfeld,The Cityscapes Dataset for Semantic Urban Scene Understanding
+Tuan-Hung Vu,ADVENT: Adversarial Entropy Minimization for Domain Adaptation in Semantic Segmentation
+Uwe Franke,The Cityscapes Dataset for Semantic Urban Scene Understanding
+Vitaly Shmatikov,Membership Inference Attacks Against Machine Learning Models
+W. Wong,Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting
+W. Woo,Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting
+Weihua Hu,Open Graph Benchmark: Datasets for Machine Learning on Graphs
+Wen Li,Learning Semantic Segmentation From Synthetic Data: A Geometrically Guided Input-Output Adaptation Approach
+Wenguan Wang,Exploring Cross-Image Pixel Contrast for Semantic Segmentation
+X. Zhang,Discovering Semantic Data of Interest from Un-mappable Memory with Confidence
+Xavier Perrotton,Sparse and Dense Data with CNNs: Depth Completion and Semantic Segmentation
+Xi Peng,Semantic Graph Convolutional Networks for 3D Human Pose Regression
+Xiaodong He,Learning deep structured semantic models for web search using clickthrough data
+Xiaodong Zhang,RCFile: A fast and space-efficient data placement structure in MapReduce-based warehouse systems
+Xiaokang Chen,Semi-Supervised Semantic Segmentation with Cross Pseudo Supervision
+Xiaoran Chen,Learning Semantic Segmentation From Synthetic Data: A Geometrically Guided Input-Output Adaptation Approach
+Xingjian Shi,Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting
+Xinya Chen,Adversarial Semantic Data Augmentation for Human Pose Estimation
+Xuan Cao,Adversarial Semantic Data Augmentation for Human Pose Estimation
+Xuran Pan,Implicit Semantic Data Augmentation for Deep Networks
+Y. Chung,Tajo: A distributed data warehouse system on large clusters
+Y. Ni,HadoopRDF: A Scalable Semantic Data Analytical Engine
+Yanchao Yang,FDA: Fourier Domain Adaptation for Semantic Segmentation
+Yang Zou,Unsupervised Domain Adaptation for Semantic Segmentation via Class-Balanced Self-training
+Yanhao Ge,Adversarial Semantic Data Augmentation for Human Pose Estimation
+Yanrui Bin,Adversarial Semantic Data Augmentation for Human Pose Estimation
+Yassine Ouali,Semi-Supervised Semantic Segmentation With Cross-Consistency Training
+Yifan Liu,A Simple Baseline for Semi-supervised Semantic Segmentation with Strong Data Augmentation*
+Yin Huai,RCFile: A fast and space-efficient data placement structure in MapReduce-based warehouse systems
+Ying Tai,Adversarial Semantic Data Augmentation for Human Pose Estimation
+Yohannes Kurniawan,Use data warehouse and data mining to predict student academic performance in schools: A case study (perspective application and benefits)
+Yong Yu,HadoopRDF: A Scalable Semantic Data Analytical Engine
+Yongqiang He,RCFile: A fast and space-efficient data placement structure in MapReduce-based warehouse systems
+Yoshua Bengio,Neural Machine Translation by Jointly Learning to Align and Translate
+Yoshua Bengio,Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation
+Yu Tian,Semantic Graph Convolutional Networks for 3D Human Pose Regression
+Yuhua Chen,Learning Semantic Segmentation From Synthetic Data: A Geometrically Guided Input-Output Adaptation Approach
+Yuhui Yuan,Semi-Supervised Semantic Segmentation with Cross Pseudo Supervision
+Yulin Wang,Implicit Semantic Data Augmentation for Deep Networks
+Yupeng Zhang,SecureML: A System for Scalable Privacy-Preserving Machine Learning
+Yuxiao Dong,Open Graph Benchmark: Datasets for Machine Learning on Graphs
+Z. B. Celik,Practical Black-Box Attacks against Machine Learning
+Z. Ullah,MRI-Based Brain Tumor Classification Using Ensemble of Deep Features and Machine Learning Classifiers
+Zheng Shao,RCFile: A fast and space-efficient data placement structure in MapReduce-based warehouse systems
+Zheng Shao,Hive - a petabyte scale data warehouse using Hadoop
+Zhibin Wang,A Simple Baseline for Semi-supervised Semantic Segmentation with Strong Data Augmentation*
+Zhiding Yu,Unsupervised Domain Adaptation for Semantic Segmentation via Class-Balanced Self-training
+Zhiqiang Lin,Discovering Semantic Data of Interest from Un-mappable Memory with Confidence
+Zhiwei Xu,RCFile: A fast and space-efficient data placement structure in MapReduce-based warehouse systems
+Zhourong Chen,Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting
+cCaugatay Demiralp,Sherlock: A Deep Learning Approach to Semantic Data Type Detection
+Àgata Lapedriza,Learning Deep Features for Scene Recognition using Places Database
+Çaglar Gülçehre,Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation
+É. Wirbel,Sparse and Dense Data with CNNs: Depth Completion and Semantic Segmentation

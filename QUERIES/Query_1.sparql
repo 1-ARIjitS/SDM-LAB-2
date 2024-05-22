@@ -1,8 +1,7 @@
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX research: <http://www.example.edu/research/>
 
-SELECT ?author ?name
+SELECT ?author ?author_name
 WHERE {
     ?author a research:author ;
-            research:name ?name .
+            research:author_name ?author_name .
 }
