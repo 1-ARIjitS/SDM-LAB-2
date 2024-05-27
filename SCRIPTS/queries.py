@@ -24,68 +24,77 @@ def run_sparql_query(endpoint_url, query):
         print(f"An error occurred: {e}")
 
 def main():
-    endpoint = "http://Konoks-MacBook-Pro.local:7200/repositories/sdm_lab_02"
+    endpoint = "http://10-192-112-22client.eduroam.upc.edu:7200/repositories/sdm_lab_02"
     
     # Query 1
     query1 = """
-    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-    PREFIX research: <http://www.example.edu/research/>
-    SELECT ?author ?name WHERE {
-        ?author a research:author ;
-                research:name ?name .
-    }
+        PREFIX research: <http://www.example.edu/research/>
+
+        SELECT ?author ?author_name
+        WHERE {
+            ?author a research:author ;
+                    research:author_name ?author_name .
+        }
     """
     print("Results of Query 1:")
     run_sparql_query(endpoint, query1)
 
     # Query 2
     query2 = """
-    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-    PREFIX research: <http://www.example.edu/research/>
-    SELECT ?property WHERE {
-        ?property rdf:type rdf:Property ;
-                  rdfs:domain research:author .
-    }
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX research: <http://www.example.edu/research/>
+
+        SELECT ?property
+        WHERE {
+            ?property rdf:type rdf:Property ;
+                    rdfs:domain research:author .
+        }
+
     """
     print("Results of Query 2:")
     run_sparql_query(endpoint, query2)
 
     # Query 3
     query3 = """
-    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-    PREFIX research: <http://www.example.edu/research/>
-    SELECT ?property WHERE {
-      {
-        ?property rdf:type rdf:Property ;
-                  rdfs:domain research:conferences .
-      }
-      UNION
-      {
-        ?property rdf:type rdf:Property ;
-                  rdfs:domain research:journals .
-      }
-    }
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX research: <http://www.example.edu/research/>
+
+        SELECT ?property
+        WHERE {
+        {
+            ?property rdf:type rdf:Property ;
+                    rdfs:domain research:conferences .
+        }
+        UNION
+        {
+            ?property rdf:type rdf:Property ;
+                    rdfs:domain research:journals .
+        }
+        }
     """
     print("Results of Query 3:")
     run_sparql_query(endpoint, query3)
 
     # Query 4
     query4 = """
-    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-    PREFIX research: <http://www.example.edu/research/>
-    SELECT DISTINCT ?author_name ?paper_title WHERE {
-      ?author rdf:type research:author ;
-              research:name ?author_name ;
-              research:writes ?paper .
-      ?paper rdf:type research:paper ;
-             research:title ?paper_title ;
-             research:presented_in ?conferences .
-      ?conference rdf:type research:conferences ;
-                  research:name ?conference_name .
-    }
-    ORDER BY ?author_name
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX research: <http://www.example.edu/research/>
+
+        SELECT distinct ?author_name ?paper_title 
+        WHERE {
+        ?author rdf:type research:author ;
+                research:author_name ?author_name ;
+                research:writes ?paper .
+        ?paper rdf:type research:paper ;
+                research:paper_title ?paper_title ;
+                research:presented_in ?conferences .
+        ?conference rdf:type research:conferences ;
+                    research:conference_name ?conference_name .
+        }
+        order by ?author_name
     """
     print("Results of Query 4:")
     run_sparql_query(endpoint, query4)
