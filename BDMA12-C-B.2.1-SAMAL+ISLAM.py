@@ -132,7 +132,7 @@ for index, row in df_node_workshops.iterrows():
 df_node_journals= pd.read_csv("DATA/CSV_FILES/journal.csv", delimiter=",")
 print("processing journals node...")
 for index, row in df_node_journals.iterrows():
-    journal_id = URIRef(research + row['publicationId'])
+    journal_id = URIRef(research + f"journal_{row['publicationId']}")
     name = Literal(row["name"])
     venue = Literal(row["venue"])
     year = Literal(row["year"])
@@ -223,7 +223,7 @@ df_edge_paper_published_in_journal= pd.read_csv("DATA/CSV_FILES/paper_published_
 print("processing paper published in journal edge...")
 for index, row in df_edge_paper_published_in_journal.iterrows():
     paper_id = URIRef(research + f"paper_{row['START_ID']}")
-    journal_id = URIRef(research + f"conference_{row['END_ID']}")
+    journal_id = URIRef(research + f"journal_{row['END_ID']}")
 
     # Add triples to the graph
     g.add((paper_id, research.published_in, journal_id))
