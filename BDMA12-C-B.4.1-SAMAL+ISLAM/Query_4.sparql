@@ -1,0 +1,15 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX research: <http://www.example.edu/research/>
+
+SELECT distinct ?author_name ?paper_title 
+WHERE {
+  ?author rdf:type research:author ;
+          research:author_name ?author_name ;
+          research:writes ?paper .
+  ?paper rdf:type research:paper ;
+         research:paper_title ?paper_title ;
+         research:presented_in ?conferences .
+  ?conference rdf:type research:conferences ;
+              research:conference_name ?conference_name .
+}
+order by ?author_name

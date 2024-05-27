@@ -1,0 +1,31 @@
+PREFIX research: <http://www.example.edu/research/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?name ?type (COUNT(?paper) AS ?paperCount)
+WHERE {
+  {
+    ?paper research:presented_in ?conference .
+    ?conference rdf:type research:conferences .
+    ?conference research:conference_name ?name .
+    BIND("Conference" AS ?type)
+  }
+  UNION
+  {
+    ?paper research:presented_in_work ?workshop .
+    ?workshop rdf:type research:workshops .
+    ?workshop research:workshop_name ?name .
+    BIND("Workshop" AS ?type)
+  }
+  UNION
+  {
+    ?paper research:published_in ?journal .
+    ?journal rdf:type research:journals .
+    ?journal research:journal_name ?name .
+    BIND("Journal" AS ?type)
+  }
+}
+GROUP BY ?name ?type
+ORDER BY DESC(?paperCount)
+LIMIT 10
