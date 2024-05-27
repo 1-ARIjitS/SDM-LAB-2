@@ -14,10 +14,10 @@ from rdflib.namespace import CSVW, DC, DCAT, DCTERMS, DOAP, FOAF, ODRL2, ORG, OW
 
 # Load the ABox and TBox RDF graphs into rdflib Graph objects
 abox_graph = Graph()
-abox_graph.parse("./ABOX_DATA/abox_final.rdf", format="xml")  # Load ABox RDF graph
+abox_graph.parse("./ABOX_DATA/abox_final_test.rdf", format="xml")  # Load ABox RDF graph
 
 tbox_graph = Graph()
-tbox_graph.parse("./TBOX_DATA/tbox_final.rdf", format="xml")  # Load TBox RDF graph
+tbox_graph.parse("./TBOX_DATA/tbox_final_test.rdf", format="xml")  # Load TBox RDF graph
 
 # Link ABox nodes to TBox classes using rdf:type
 print("processing the classes...")
@@ -34,7 +34,11 @@ for subject, predicate, object_ in abox_graph:
 
 # Serialize the RDF graph containing both ABox and TBox triples
 combined_graph = abox_graph + tbox_graph
-combined_graph.serialize("./ABOX_DATA/linked_graph.rdf", format="xml")  # Serialize as RDF/XML
+linked_directory= "./LINKED_GRAPH"
+if not os.path.exists(linked_directory):
+    os.makedirs(linked_directory)
+    
+combined_graph.serialize(os.path.join(linked_directory, "linked_graph.rdf"), format="xml")  # Serialize as RDF/XML
 
 # Import the serialized RDF graph into GraphDB
 # Use GraphDB's interface or API to import the serialized RDF graph into your repository

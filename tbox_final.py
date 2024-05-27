@@ -32,7 +32,7 @@ g = Graph()
 print("adding paper node...")
 g.add((research.paper, RDF.type, RDFS.Class))
 
-# adding author node
+# adding author nodec
 print("adding author node...")
 g.add((research.author, RDF.type, RDFS.Class))
 
@@ -130,9 +130,9 @@ if not os.path.exists(directory):
     os.makedirs(directory)
 
 # Define the file path
-os_path = os.path.join(directory, "tbox_final.rdf")
+filepath = os.path.join(directory, "tbox_f.xml")
 
-print(g.serialize(os.path.join(directory, "tbox_final.ttl"), format="turtle"))
+print(g.serialize(filepath, format="pretty-xml"))
 
 # visualize graph
 visualize(g)
