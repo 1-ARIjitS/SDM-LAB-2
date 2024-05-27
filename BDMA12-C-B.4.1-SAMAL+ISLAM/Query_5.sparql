@@ -28,4 +28,4 @@ WHERE {
 }
 GROUP BY ?name ?type
 ORDER BY DESC(?paperCount)
-LIMIT 10
+LIMIT 100

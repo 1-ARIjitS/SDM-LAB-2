@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Property rdf:about="http://www.example.edu/research/workshop_year">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/workshops"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/keyword_name">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/keywords"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/reviews">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/reviewer"/>
+    <rdfs:range rdf:resource="http://www.example.edu/research/paper"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/presented_in_work">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/paper"/>
+    <rdfs:range rdf:resource="http://www.example.edu/research/workshops"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/journal_year">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/journals"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/paper_pages">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/paper"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/presented_in">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/paper"/>
+    <rdfs:range rdf:resource="http://www.example.edu/research/conferences"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/work_is_partof">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/workshops"/>
+    <rdfs:range rdf:resource="http://www.example.edu/research/proceedings"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/conference_year">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/conferences"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/proceeding_name">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/proceedings"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/paper_link">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/paper"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/journalEditor">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/journals"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/keyword_domain">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/keywords"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/conference_url">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/conferences"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/paper_title">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/paper"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/paper_DOI">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/paper"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/conference_edition">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/conferences"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/has">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/paper"/>
+    <rdfs:range rdf:resource="http://www.example.edu/research/keywords"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/journal_venue">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/journals"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/author_name">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/author"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/paper_abstract">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/paper"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/paper_date">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/paper"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/published_in">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/paper"/>
+    <rdfs:range rdf:resource="http://www.example.edu/research/journals"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/workshop_edition">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/workshops"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/workshopChair">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/workshops"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/is_partof">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/conferences"/>
+    <rdfs:range rdf:resource="http://www.example.edu/research/proceedings"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/journal_issn">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/journals"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/workshop_issn">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/workshops"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/journal_name">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/journals"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/conferenceChair">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/conferences"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/corresponding_author">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/author"/>
+    <rdfs:range rdf:resource="http://www.example.edu/research/paper"/>
+    <rdfs:subPropertyOf>
+      <rdf:Property rdf:about="http://www.example.edu/research/writes">
+        <rdfs:domain rdf:resource="http://www.example.edu/research/author"/>
+        <rdfs:range rdf:resource="http://www.example.edu/research/paper"/>
+      </rdf:Property>
+    </rdfs:subPropertyOf>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/conference_name">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/conferences"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/conference_venue">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/conferences"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/author_email">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/author"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/cites">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/paper"/>
+    <rdfs:range rdf:resource="http://www.example.edu/research/paper"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/workshop_name">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/workshops"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/workshop_url">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/workshops"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/conference_issn">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/conferences"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/proceeding_city">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/proceedings"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/workshop_venue">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/workshops"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/journal_url">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/journals"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.example.edu/research/journal_volume">
+    <rdfs:domain rdf:resource="http://www.example.edu/research/journals"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Property>
+  <rdfs:Class rdf:about="http://www.example.edu/research/paper"/>
+  <rdfs:Class rdf:about="http://www.example.edu/research/keywords"/>
+  <rdfs:Class rdf:about="http://www.example.edu/research/author"/>
+  <rdfs:Class rdf:about="http://www.example.edu/research/reviewer">
+    <rdfs:subClassOf rdf:resource="http://www.example.edu/research/author"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.example.edu/research/workshops"/>
+  <rdfs:Class rdf:about="http://www.example.edu/research/journals"/>
+  <rdfs:Class rdf:about="http://www.example.edu/research/proceedings"/>
+  <rdfs:Class rdf:about="http://www.example.edu/research/conferences"/>
+</rdf:RDF>
