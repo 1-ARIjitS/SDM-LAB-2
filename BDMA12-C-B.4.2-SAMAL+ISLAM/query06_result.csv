@@ -1,11 +1,11 @@
-paperTitle,authorName,citationCount
-The Pfam protein families database,A. Heger,52
-The Pfam protein families database,Jaina Mistry,52
-The Pfam protein families database,Goran Ceric,52
-The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling,Margy Ross,50
-The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling,Ralph Kimball,50
-Teaching Creative and Practical Data Science at Scale,Thomas Donoghue,50
-Teaching Creative and Practical Data Science at Scale,Bradley Voytek,50
-Teaching Creative and Practical Data Science at Scale,Shannon E. Ellis,50
-CRISP-DM Twenty Years Later: From Data Mining Processes to Data Science Trajectories,P. Flach,49
-CRISP-DM Twenty Years Later: From Data Mining Processes to Data Science Trajectories,Meelis Kull,49
+paperTitle,citationCount
+The Pfam protein families database,52
+The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling,50
+Teaching Creative and Practical Data Science at Scale,50
+Data modelling for effective data warehouse architecture and design,49
+CRISP-DM Twenty Years Later: From Data Mining Processes to Data Science Trajectories,49
+Use data warehouse and data mining to predict student academic performance in schools: A case study (perspective application and benefits),49
+Machine Learning With Python,48
+Rectifying Pseudo Label Learning via Uncertainty Estimation for Domain Adaptive Semantic Segmentation,48
+The mnist database of handwritten digits,48
+Implicit Semantic Data Augmentation for Deep Networks,47
